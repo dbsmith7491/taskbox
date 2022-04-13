@@ -858,7 +858,6 @@ a:focus {
   line-height: 20px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   height: 3rem;
   width: 100%;
   background: white;
@@ -906,7 +905,7 @@ a:focus {
   color: #aaa;
 }
 .list-item:hover {
-  background: red;
+  background-image: linear-gradient(to bottom, #e5f9f7 0%, #f0fffd 100%);
 }
 .list-item:hover .checkbox {
   cursor: pointer;
